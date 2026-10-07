@@ -223,6 +223,13 @@ figcaption {
   margin-top: .55rem;
   max-width: 42rem;
 }
+.talk-video video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0a0a0a;
+  border-radius: 2px;
+}
 .full-bleed {
   width: 100vw;
   margin-left: calc(50% - 50vw);
