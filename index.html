@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Steel City to Roboburgh · IROS 2026 Pittsburgh</title>
+  <meta name="description" content="Notes from IROS 2026 on specialists versus humanoids, our RTFF paper, and the companies on the exhibit floor.">
+  <meta name="author" content="Dipankar Bhattacharya">
+  <meta property="og:title" content="From Steel City to Roboburgh · IROS 2026">
+  <meta property="og:description" content="Notes from the IEEE/RSJ International Conference on Intelligent Robots and Systems, Pittsburgh, 27 Sep to 1 Oct 2026.">
+  <meta property="og:image" content="images/hero-hall.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast">
+    <a class="wordmark" href="index.html">IROS 2026 <span>Pittsburgh</span></a>
+    <nav>
+      <a href="#thoughts">Thoughts</a>
+      <a href="#paper">Our paper</a>
+      <a href="#companies">Companies</a>
+      <a href="#posters">Posters</a>
+      <a href="#city">Pittsburgh</a>
+      <a href="gallery.html">All photos</a>
+    </nav>
+  </header>
+
+  <header class="hero">
+    <img src="images/hero-hall.jpg" alt="Overhead view of the IROS 2026 exhibit hall.">
+    <div class="hero-copy">
+      <p class="kicker">IEEE / RSJ · 27 September to 1 October 2026</p>
+      <h1>From Steel City to Roboburgh</h1>
+      <p class="hero-meta">
+        <span>A week at IROS, by <strong>Dipankar Bhattacharya</strong></span>
+        <span>Imperial College London</span>
+      </p>
+    </div>
+  </header>
+
+  <div class="stats" aria-label="Conference at a glance">
+    <div><b>1,900+</b><span>papers, talk and poster</span></div>
+    <div><b>170+</b><span>exhibitors</span></div>
+    <div><b>#3269</b><span>our RTFF paper</span></div>
+    <div><b>38th</b><span>edition of IROS</span></div>
+  </div>
+
+  <main id="main" class="wrap">
+
+    <section class="section prose">
+      <p class="lede">Pittsburgh spent a century making steel. This week it made a convincing case that it now makes robots.</p>
+      <p>The 38th IEEE/RSJ International Conference on Intelligent Robots and Systems ran at the David L. Lawrence Convention Center on the Allegheny riverfront. Howie Choset of Carnegie Mellon chaired. Ross L. Hatton of Oregon State ran the program. More than 1,900 contributed papers each got both a talk and a poster. There were 170 plus exhibitors, 19 keynotes, three plenaries, 86 workshops and nine competitions. The city calls itself Roboburgh, and for five days the hall felt like the thesis statement.</p>
+      <p>I was there with our paper <a href="https://kaitang98.github.io/RTFF_Policy/">RTFF, Random to Target Fabric Flattening Policy using Dual Arm Manipulator</a> (paper #3269), joint work with Kai Tang (The University of Hong Kong), Hang Xu (JD.com), Fuyuki Tokuda (Tohoku University), Norman C. Tien (HKU) and Kazuhiro Kosuge (City University of Hong Kong). Kai and I share first authorship.</p>
+    </section>
+
+    <section class="section" id="thoughts">
+      <div class="prose">
+        <h2>What I took away</h2>
+
+        <h3>The plenary question</h3>
+        <p>Monday’s plenary on start ups and entrepreneurship put Vijay Kumar, Andrea Thomaz of Diligent Robotics and others on the Hall C stage, with Lisa Chai and Henrik I. Christensen moderating. Wednesday closed the scientific programme with the debate the organising committee had teased all year. Should robots be generalists or specialists?</p>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <img src="images/startups.jpg" alt="Plenary panel on start ups and entrepreneurship in Hall C.">
+          <figcaption>Monday in Hall C. Start ups as the path from prototype to product.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/debate.jpg" alt="Plenary debate slide on generalists or specialists.">
+          <figcaption>Wednesday’s debate. Generalist body on the left, specialist arm on the right.</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose">
+        <h3>Humanoids can already do hard stage work</h3>
+        <p>Walking the humanoid aisle, it is hard not to be impressed by how far the form has come. Bodies that once struggled to stay upright now sell athletic competence as a product demo. Unitree G1 clusters have done kung fu, drunken boxing and coordinated falls on China’s Spring Festival Gala. EngineAI’s T800 kicks and spars in a ring, including at IROS. MagicLab has danced with human performers. Galbot sustains humanoid tennis rallies with whole body planning. The motion control is real, and it is evolving fast.</p>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <img src="images/booth-engineai.jpg" alt="EngineAI humanoids boxing in a ring on the exhibit floor.">
+          <figcaption>EngineAI sparring live on the IROS floor. Martial arts as a stress test for balance and recovery.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/booth-unitree.jpg" alt="Unitree booth with humanoids and quadrupeds.">
+          <figcaption>Unitree’s stand. Bipeds, a boxing humanoid and wheeled leg quadrupeds in one aisle.</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose">
+        <h3>Daily chores are still a different problem</h3>
+        <p>What those demos do not settle is household generality. A robot that can punch or dance on a flat stage still struggles with daily chores such as laundry, cooking or clearing a cluttered table. The reason is that environment dynamics change from place to place. Kitchens differ in layout, lighting, object sets and clutter. Clothes deform differently from house to house. The same action sequence that works in one demo cell fails when furniture, friction and human habits shift. Stage routines are closed world performances. Homes are open world, non stationary, and full of contact that vision alone does not solve.</p>
+
+        <h3>Why I favour specialists</h3>
+        <p>That is why I leave IROS on the specialist side of the plenary. Robot vacuums, warehouse AMRs, surgical arms, force controlled cobots such as Flexiv, and even our own RTFF fabric policy are ergonomically and algorithmically designed for a narrow job, and they already ship value. A Roomba does not need a humanoid torso. It needs a morphology and a controller matched to floors. Specialists win when the task geometry is stable.</p>
+      </div>
+
+      <figure>
+        <img src="images/booth-flexiv.jpg" alt="Flexiv Enlight force controlled robot arms.">
+        <figcaption>Flexiv Enlight arms. Specialist morphology for contact rich work, not a generalist body.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <h3>Where humanoids still matter</h3>
+        <p>Humanoids still matter where the world is built for people and the working conditions are poor. Warehouses, factories and fulfilment centres are the honest use case. Amazon’s aisle, with yellow automation beside Digit class picking, makes that pitch clear. In those spaces a general purpose body can share tools, aisles and totes with humans without redesigning the building. The point is not humanoid everywhere. It is humanoid where human form is the constraint, and specialist machines everywhere else.</p>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <img src="images/booth-amazon.jpg" alt="Amazon Fulfillment Innovation booth.">
+          <figcaption>Amazon booth 1127. Fulfilment automation under From fulfillment to innovation.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/booth-digit.jpg" alt="Digit class biped picking into a bin.">
+          <figcaption>Digit class picking in a cordoned cell. Humanoids where the workplace still assumes a human body.</figcaption>
+        </figure>
+      </div>
+
+      <blockquote class="pull">Humanoids for harsh, human shaped workplaces. Specialists such as vacuums, arms and fabric policies for the rest.</blockquote>
+    </section>
+
+    <section class="section" id="paper">
+      <div class="prose">
+        <h2>Our paper on fabric flattening</h2>
+
+        <h3>Why fabric is still hard</h3>
+        <p>Garment production wants a robot that can take a crumpled panel and lay it flat in a specified pose for sewing, cutting or printing. Flattening and alignment fight each other. Smooth out a wrinkle and the cloth walks. Shove it back into place and you raise new folds. Depth cameras also lose the fabric under the gripper.</p>
+
+        <h3>What RTFF does</h3>
+        <p>RTFF treats both the current cloth and the user specified target as the <strong>same CAD template mesh</strong>. Wrinkle height and pose error become vertex discrepancies, with no registration step. A graph attention network predicts that mesh from RGB D even when the arm occludes the panel. A Mesh Action Chunking Transformer, trained on a small dual arm teleoperation set, does the coarse flatten and align. Position based visual servoing finishes once the cloth is dual grasped and nearly flat.</p>
+      </div>
+
+      <div class="metrics">
+        <div><b>1.1 cm</b><span>terminal alignment error</span></div>
+        <div><b>0.93</b><span>mean IoU on the real cell</span></div>
+        <div><b>0 / 20</b><span>failures, in distribution</span></div>
+      </div>
+
+      <div class="prose">
+        <h3>Talk and poster</h3>
+        <p>Drop the mesh and the policy fails. Drop visual servoing and both error and variance jump. Trained on one fabric, the same policy transferred to unseen materials and an 80 percent scale. Kai gave the talk on Wednesday afternoon in <em>Learning Priors for Specialized Manipulation Skills</em> in rooms 411 and 412, around 15:57. We stood the poster at Pod C11 West from 16:30 to 18:00.</p>
+        <p><a href="https://kaitang98.github.io/RTFF_Policy/">Project page and video</a> · <a href="https://arxiv.org/abs/2510.00814">arXiv 2510.00814</a></p>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <img src="images/talk-wide.jpg" alt="Kai Tang presenting RTFF at a lectern.">
+          <figcaption>Kai Tang at the lectern. The slide poses the coupling between flattening and pose correction.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/talk-kai.jpg" alt="Closer view of Kai Tang presenting the RTFF talk.">
+          <figcaption>Same session, closer crop. Paper #3269 in rooms 411 and 412.</figcaption>
+        </figure>
+      </div>
+      <div class="pair">
+        <figure>
+          <img src="images/poster-full.jpg" alt="The full RTFF conference poster on the board.">
+          <figcaption>The poster. Template mesh, MACT and visual servoing on the dual arm cell.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/poster-dipankar.jpg" alt="Dipankar Bhattacharya standing beside the RTFF poster.">
+          <figcaption>Pod C11 West on Wednesday evening. Same paper, longer conversations.</figcaption>
+        </figure>
+      </div>
+      <figure>
+        <img src="images/talk-slide.jpg" alt="RTFF presentation slide on screen.">
+        <figcaption>A slide from the talk. Coarse imitation learning handing off to visual servoing.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section" id="companies">
+      <div class="prose">
+        <h2>Companies on the exhibit floor</h2>
+        <p>The aisle sorted itself into four kinds of work. Below is what each company I photographed was actually selling, then the photo gallery for that category. Open <em>More images</em> when I took a sequence. All 222 frames are in the <a href="gallery.html">album</a>.</p>
+
+        <h3>Humanoid robots</h3>
+        <p><strong>Unitree Robotics</strong> (booth 500) filled the densest stand with G1 class bipeds, a boxing humanoid, wheeled leg quadrupeds and manipulation demos. <strong>Amazon</strong> (booth 1127, silver sponsor) showed fulfilment automation and Digit class biped picking for warehouse work. <strong>Sharpa</strong> (booth 514) ran a teleoperated bartender with VR and haptic hands. <strong>Booster Robotics</strong> lined up small research and education bipeds with outdoor jogging footage. <strong>EngineAI</strong> put T800 class bodies in a live boxing ring and is behind the URKL fighting league. <strong>Galbot</strong> (gold sponsor) kept high dynamic motion going and took a category award for humanoid tennis learned from imperfect human motion. <strong>Astribot</strong> used IROS for the North American debut of the T1 upper body platform. <strong>PAL Robotics</strong> (booth 1005) brought TIAGo Pro Arm for manipulation research along with their service robot family. <strong>Dexmate</strong> pitched research humanoids with plug and play teleoperation. <strong>ROKAE</strong> showed industrial, collaborative and embodied AI robots including humanoid form factors. <strong>Rainbow Robotics</strong> (booth 835) combined a quadruped, dual arm mobile manipulator and VR teleoperation. <strong>Sony</strong> (booth 1129) opened aibo to researchers through an SDK tied to Isaac Sim and Isaac Lab. I also stopped by the <strong>RAI Institute</strong> (booth 1102) for their Ultra Mobility Vehicle, Roadrunner and Koala grippers for data collection.</p>
+
+        <h3>Embodied data and simulation</h3>
+        <p><strong>Lightwheel</strong> sells physics accurate synthetic data and simulation for embodied AI. <strong>NVIDIA</strong> anchored many demos with Isaac Sim. <strong>OptiTrack</strong> provided precision motion capture as ground truth for locomotion and interaction. <strong>MANUS</strong> and neighbouring Rokoko capture sold high fidelity hand and body tracking for teleoperation datasets. <strong>Haply Robotics</strong> supplied grounded force feedback hardware for the human side of data collection. Open dual arm and open humanoid stacks argued that algorithms should travel with the hardware.</p>
+
+        <h3>Dexterous hands and tactile sensing</h3>
+        <p><strong>PaXini AI</strong> stacked Hall effect tactile sensors, e skin, gloves, hands and humanoids, arguing that foundation models need contact data as much as video. <strong>Tashan Technology</strong> sells AI tactile sensing chips for force, deformation and texture. <strong>Analog Devices</strong> (booth 1028) showed multi finger hands with tactile driven manipulation and slip detection. <strong>BionIT Labs</strong> displayed Adam’s Hand, an adaptive underactuated end effector. <strong>Xynova</strong> pitched a full stack for dexterous manipulation.</p>
+
+        <h3>Arms, mobile platforms and other systems</h3>
+        <p><strong>Flexiv</strong> (booth 922) showed force controlled Enlight and Rizon arms with whole body sensing. <strong>Franka Robotics</strong> remained the research arm default on FR3 cells. <strong>DOBOT</strong> sold education and industrial cobots. <strong>Fujitsu</strong> framed a Physical OS around small object manipulation. <strong>Robify</strong> showed a mobile manipulator and AMR base for indoor logistics. <strong>ROBOTIS</strong> laid out DYNAMIXEL actuators by size. <strong>maxon</strong> supplied precision motors and drives. <strong>HOMPO</strong> hovered an indoor quadrotor over its floor sticker. Smaller legged platforms such as <strong>CHOPTO</strong> mini quadrupeds and a bio inspired orange crab walker rounded out the specialist morphology niche.</p>
+      </div>
+
+      <h3 class="photo-sub">Booth photo gallery</h3>
+      <nav class="floor-jump" id="floor-jump"></nav>
+      <div id="booth-catalog"></div>
+      <p class="also-note" id="also-visited"></p>
+    </section>
+
+    <section class="section" id="posters">
+      <div class="prose">
+        <h2>Posters that caught my eye</h2>
+        <p>Every paper also stood as a poster, so the hall was a second conference. A few boards that photographed well, including one from Edward Johns’ lab at Imperial.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="images/poster-simlify.jpg" alt="Simlify poster from Imperial College London and UCLA.">
+          <div>
+            <h3>Simlify · Imperial and UCLA</h3>
+            <p>Real to sim spatial reasoning from a single view, with Edward Johns on the author list.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/poster-deform.jpg" alt="University of Michigan TrackDeform3D poster.">
+          <div>
+            <h3>TrackDeform3D · Michigan ROAHM</h3>
+            <p>Markerless 3D keypoints on ropes and cloth with two Franka arms and one RGB D camera.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/poster-hop.jpg" alt="University of Washington DirectHop insect robot poster.">
+          <div>
+            <h3>DirectHop · UW AIR Lab</h3>
+            <p>A one gram direct drive insect that chooses jump height and self rights.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/poster-hatton.jpg" alt="Oregon State poster on coordinate independent robot model identification.">
+          <div>
+            <h3>Coordinate free identification · Oregon State</h3>
+            <p>Yanhao Yang and Ross L. Hatton on system identification that does not depend on which coordinates you picked.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="city">
+      <h2>Pittsburgh between sessions</h2>
+      <div class="prose">
+        <p>Between sessions the terrace looks onto the yellow bridges. One lunch was a Primanti Bros sandwich with fries in the sandwich. Wednesday night the conference moved to the Carnegie Science Center for the farewell reception, with IROS logos on black glass and a glowing furnace exhibit in the next room. Steel City still, with better actuators.</p>
+      </div>
+      <div class="pair">
+        <figure>
+          <img src="images/bridges.jpg" alt="Yellow bridges over the Allegheny River.">
+          <figcaption>From the convention centre. The bridges Pittsburgh puts on every postcard.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/skyline.jpg" alt="Downtown Pittsburgh skyline from the convention centre terrace.">
+          <figcaption>Wednesday light on downtown from the DLCC terrace.</figcaption>
+        </figure>
+      </div>
+      <div class="pair">
+        <figure>
+          <img src="images/sandwich.jpg" alt="Primanti Bros sandwich stacked with meat, slaw and fries.">
+          <figcaption>Primanti Bros. You have to do it once.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/kamin-logo.jpg" alt="IROS 2026 Pittsburgh logo at the Carnegie Science Center.">
+          <figcaption>Farewell reception at the Carnegie Science Center. The mark is two robot arms making a bridge.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <p>Dipankar Bhattacharya · Dyson School of Design Engineering, Imperial College London</p>
+        <p><a href="gallery.html">All 222 photos</a> · web sized for GitHub Pages. Camera originals stay in the trip archive.</p>
+      </div>
+      <div>
+        <p><a href="https://2026.ieee-iros.org/">IROS 2026</a> · <a href="https://kaitang98.github.io/RTFF_Policy/">RTFF</a> · <a href="https://arxiv.org/abs/2510.00814">arXiv</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lb" id="lb" hidden>
+    <button type="button" aria-label="Close">&times;</button>
+    <img alt="">
+    <figcaption></figcaption>
+  </div>
+  <script>
+    const lb = document.getElementById("lb");
+    const lbImg = lb.querySelector("img");
+    const lbCap = lb.querySelector("figcaption");
+
+    function openLb(src, alt) {
+      lbImg.src = src;
+      lbImg.alt = alt || "";
+      lbCap.textContent = alt || "";
+      lb.hidden = false;
+      lb.classList.add("open");
+    }
+    function closeLb() {
+      lb.classList.remove("open");
+      lb.hidden = true;
+      lbImg.src = "";
+      lbCap.textContent = "";
+    }
+    lb.querySelector("button").addEventListener("click", closeLb);
+    lb.addEventListener("click", e => { if (e.target === lb) closeLb(); });
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closeLb(); });
+
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[c]));
+    }
+
+    fetch("booths.json")
+      .then(r => r.json())
+      .then(data => {
+        const jump = document.getElementById("floor-jump");
+        const host = document.getElementById("booth-catalog");
+        data.categories.forEach(cat => {
+          const ja = document.createElement("a");
+          ja.href = "#" + cat.id;
+          ja.textContent = cat.title;
+          jump.appendChild(ja);
+
+          const section = document.createElement("section");
+          section.className = "booth-cat";
+          section.id = cat.id;
+          section.innerHTML =
+            "<h3>" + esc(cat.title) + "</h3>" +
+            "<p class=\"cat-blurb\">" + esc(cat.blurb) + "</p>";
+
+          const grid = document.createElement("div");
+          grid.className = "booth-grid";
+
+          cat.booths.forEach(b => {
+            const card = document.createElement("article");
+            card.className = "booth-card";
+            const lead = b.images[0];
+            const more = b.images.slice(1);
+            card.innerHTML =
+              '<button type="button" class="booth-lead" data-src="' + esc(lead) + '" data-alt="' + esc(b.name) + '">' +
+              '<img src="' + esc(lead) + '" alt="' + esc(b.name) + '" loading="lazy">' +
+              "</button>" +
+              '<div class="booth-body">' +
+              "<h4>" + esc(b.name) + "</h4>" +
+              '<p class="booth-meta">' + esc(b.meta) + "</p>" +
+              "<p>" + esc(b.blurb) + "</p>" +
+              (more.length
+                ? '<details class="more-shots"><summary>More images (' + more.length + ")</summary>" +
+                  '<div class="more-grid">' +
+                  more.map((src, i) =>
+                    '<button type="button" data-src="' + esc(src) + '" data-alt="' + esc(b.name + " · " + (i + 2)) + '">' +
+                    '<img src="' + esc(src) + '" alt="" loading="lazy"></button>'
+                  ).join("") +
+                  "</div></details>"
+                : "") +
+              "</div>";
+
+            card.querySelectorAll("button[data-src]").forEach(btn => {
+              btn.addEventListener("click", () => openLb(btn.dataset.src, btn.dataset.alt));
+            });
+            grid.appendChild(card);
+          });
+
+          section.appendChild(grid);
+          host.appendChild(section);
+        });
+
+        if (data.alsoVisited && data.alsoVisited.length) {
+          document.getElementById("also-visited").innerHTML =
+            data.alsoVisited.map(x =>
+              "<strong>" + esc(x.name) + "</strong> (" + esc(x.meta) + "). " + esc(x.note)
+            ).join(" ");
+        }
+      });
+  </script>
+</body>
+</html>

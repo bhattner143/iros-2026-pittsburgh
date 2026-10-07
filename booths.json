@@ -1,0 +1,270 @@
+{
+  "categories": [
+    {
+      "id": "humanoids",
+      "title": "Humanoid robots",
+      "blurb": "Bipedal and wheeled humanoids on the exhibit floor. Athletic demos sat beside warehouse and service platforms.",
+      "booths": [
+        {
+          "id": "unitree",
+          "name": "Unitree Robotics",
+          "meta": "Booth 500 · Hangzhou",
+          "blurb": "G1 class bipeds, a boxing humanoid in red gloves, wheeled leg quadrupeds, and manipulation demos on the wall screens. Also ran a West Exhibit Arena slot on Monday.",
+          "images": ["images/booth-unitree.jpg", "images/booth-unitree-1.jpg", "images/booth-unitree-2.jpg", "images/booth-unitree-3.jpg", "images/booth-unitree-4.jpg"]
+        },
+        {
+          "id": "amazon",
+          "name": "Amazon",
+          "meta": "Booth 1127 · Silver sponsor",
+          "blurb": "Amazon Fulfillment Innovation with yellow warehouse hardware and Digit class biped picking in a cordoned cell. The case for humanoids where human working conditions are harsh.",
+          "images": ["images/booth-amazon.jpg", "images/booth-amazon-1.jpg", "images/booth-digit.jpg"]
+        },
+        {
+          "id": "sharpa",
+          "name": "Sharpa",
+          "meta": "Booth 514 · Arena demo Mon 14:30",
+          "blurb": "Teleoperated bartender with VR and haptic hands, then a second station under the slogan Strong, Fast, Precise. Founded in 2024.",
+          "images": ["images/booth-sharpa.jpg", "images/booth-sharpa-1.jpg"]
+        },
+        {
+          "id": "booster",
+          "name": "Booster Robotics",
+          "meta": "Research and education humanoids",
+          "blurb": "A squad of small grey bipeds, a football, and outdoor jogging footage labelled as real footage. Aimed at labs and developers.",
+          "images": ["images/booth-booster.jpg", "images/booth-booster-1.jpg", "images/booth-booster-2.jpg", "images/booth-booster-3.jpg"]
+        },
+        {
+          "id": "engineai",
+          "name": "EngineAI",
+          "meta": "Boxing ring · Shenzhen",
+          "blurb": "T800 class bodies sparring live. The same company behind the URKL robot fighting league. Martial arts as a stress test for balance and recovery.",
+          "images": ["images/booth-engineai.jpg", "images/booth-engineai-1.jpg", "images/booth-engineai-2.jpg"]
+        },
+        {
+          "id": "galbot",
+          "name": "Galbot",
+          "meta": "Gold sponsor · category award",
+          "blurb": "High dynamic motion all week. Their humanoid tennis work, learning athletic skills from imperfect human motion, took an IROS category award.",
+          "images": ["images/booth-galbot.jpg"]
+        },
+        {
+          "id": "astribot",
+          "name": "Astribot",
+          "meta": "North American debut of the T1",
+          "blurb": "Upper body humanoid on a pedestal for coexistence demos. The T1’s first US showing drew a steady crowd.",
+          "images": ["images/booth-astribot.jpg", "images/booth-astribot-1.jpg", "images/booth-astribot-2.jpg"]
+        },
+        {
+          "id": "pal",
+          "name": "PAL Robotics",
+          "meta": "Booth 1005 · Barcelona",
+          "blurb": "TIAGo Pro Arm for advanced manipulation research, plus the familiar PAL service robot family. Robots designed to work alongside people.",
+          "images": ["images/booth-pal.jpg", "images/booth-pal-1.jpg", "images/booth-pal-2.jpg", "images/booth-pal-3.jpg"]
+        },
+        {
+          "id": "dexmate",
+          "name": "Dexmate",
+          "meta": "California · research humanoids",
+          "blurb": "Plug and play teleoperation and an AI first API for university labs.",
+          "images": ["images/booth-dexmate.jpg"]
+        },
+        {
+          "id": "rokae",
+          "name": "ROKAE",
+          "meta": "Physical foundation for AI",
+          "blurb": "Industrial, collaborative and embodied AI robots under one roof. Humanoid form factors next to production arms.",
+          "images": ["images/booth-rokae.jpg"]
+        },
+        {
+          "id": "rainbow",
+          "name": "Rainbow Robotics",
+          "meta": "Booth 835 · Full stack robotics",
+          "blurb": "Quadruped on the carpet, dual arm mobile manipulator, and VR teleoperation.",
+          "images": ["images/booth-rainbow.jpg", "images/booth-rainbow-1.jpg", "images/booth-rainbow-2.jpg"]
+        },
+        {
+          "id": "sony",
+          "name": "Sony aibo",
+          "meta": "Booth 1129 · next to Amazon",
+          "blurb": "aibo Research SDK with Isaac Sim and Isaac Lab hooks. Companion morphology opened for reinforcement learning research.",
+          "images": ["images/booth-sony.jpg", "images/booth-sony-1.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Embodied data and simulation",
+      "blurb": "Companies selling the missing ingredient for physical AI. Teleoperation capture, motion capture, synthetic scenes, and sim to real stacks.",
+      "booths": [
+        {
+          "id": "lightwheel",
+          "name": "Lightwheel",
+          "meta": "Synthetic data and simulation",
+          "blurb": "Physics accurate 3D assets, teleoperation in simulation, and scalable simulation for embodied AI.",
+          "images": ["images/booth-lightwheel.jpg", "images/booth-lightwheel-1.jpg"]
+        },
+        {
+          "id": "nvidia",
+          "name": "NVIDIA",
+          "meta": "Isaac Sim",
+          "blurb": "Isaac Sim posters and a live arm cell. The default software layer behind many demos on the floor.",
+          "images": ["images/booth-nvidia.jpg", "images/booth-nvidia-1.jpg"]
+        },
+        {
+          "id": "optitrack",
+          "name": "OptiTrack",
+          "meta": "Precision motion capture",
+          "blurb": "Truss mounted cameras and 3D tracking screens. Ground truth for locomotion, drones, and human robot interaction.",
+          "images": ["images/booth-optitrack.jpg", "images/booth-optitrack-1.jpg", "images/booth-optitrack-2.jpg", "images/booth-optitrack-3.jpg"]
+        },
+        {
+          "id": "manus",
+          "name": "MANUS",
+          "meta": "Hand tracking gloves",
+          "blurb": "Twenty five degree of freedom finger capture for teleoperation and dexterity datasets. Sat next to Rokoko on the mocap aisle.",
+          "images": ["images/booth-manus.jpg", "images/booth-manus-1.jpg"]
+        },
+        {
+          "id": "haply",
+          "name": "Haply Robotics",
+          "meta": "Grounded haptics",
+          "blurb": "Force feedback teleoperation hardware for research. The human side of data collection.",
+          "images": ["images/booth-haply.jpg", "images/booth-haply-1.jpg", "images/booth-haply-2.jpg", "images/booth-haply-3.jpg"]
+        },
+        {
+          "id": "openarm",
+          "name": "OpenArm and open humanoid stacks",
+          "meta": "Embodied AI robot solutions",
+          "blurb": "Open dual arm and open framework humanoid banners. Data and algorithms meant to travel with the hardware.",
+          "images": ["images/booth-openarm.jpg", "images/booth-openarm-1.jpg", "images/booth-maxon-2.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "tactile",
+      "title": "Dexterous hands and tactile sensing",
+      "blurb": "The quieter argument of the show. Whole body humanoids are loud. Contact is what makes manipulation reliable.",
+      "booths": [
+        {
+          "id": "paxini",
+          "name": "PaXini AI",
+          "meta": "Platinum · Empowering sensation",
+          "blurb": "Hall effect tactile sensors, e skin, gloves, hands and humanoids in one stack. Their pitch is that embodied foundation models need contact data, not only video.",
+          "images": ["images/booth-paxini.jpg", "images/booth-paxini-1.jpg", "images/booth-paxini-2.jpg"]
+        },
+        {
+          "id": "tashan",
+          "name": "Tashan Technology",
+          "meta": "Tactile intelligence chips",
+          "blurb": "AI tactile sensing chips for three dimensional force, deformation and texture.",
+          "images": ["images/booth-tashan.jpg", "images/booth-tashan-1.jpg"]
+        },
+        {
+          "id": "analog",
+          "name": "Analog Devices",
+          "meta": "Booth 1028 · Dexterity benchmark",
+          "blurb": "Multi finger hands, tactile driven manipulation and slip detection for deformable objects.",
+          "images": ["images/booth-analog.jpg"]
+        },
+        {
+          "id": "bionit",
+          "name": "BionIT Labs",
+          "meta": "Adam’s Hand",
+          "blurb": "Adaptive underactuated hand with ten degrees of freedom and three actuators, rated IP67, for humanoids and industrial arms.",
+          "images": ["images/booth-bionit.jpg", "images/booth-bionit-1.jpg"]
+        },
+        {
+          "id": "xynova",
+          "name": "Xynova",
+          "meta": "Dexterous manipulation stack",
+          "blurb": "Full stack perception, control and precision execution for general dexterous manipulation.",
+          "images": ["images/booth-xynova.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Arms, mobile platforms and other systems",
+      "blurb": "Force controlled cobots, logistics AMRs, actuators and aerial robots. The specialist machines that already work.",
+      "booths": [
+        {
+          "id": "flexiv",
+          "name": "Flexiv",
+          "meta": "Booth 922 · Enlight and Rizon",
+          "blurb": "Adaptive force controlled arms with whole body sensing and dual arm teleoperation. Specialist morphology for contact rich work.",
+          "images": ["images/booth-flexiv.jpg", "images/booth-flexiv-1.jpg"]
+        },
+        {
+          "id": "franka",
+          "name": "Franka Robotics",
+          "meta": "Research arms",
+          "blurb": "FR3 cells for manipulation research and embodied AI demos.",
+          "images": ["images/booth-franka.jpg", "images/booth-franka-1.jpg"]
+        },
+        {
+          "id": "dobot",
+          "name": "DOBOT",
+          "meta": "Collaborative arms",
+          "blurb": "Education and industrial cobots. A specialist form factor that does not need a humanoid body.",
+          "images": ["images/booth-dobot.jpg"]
+        },
+        {
+          "id": "fujitsu",
+          "name": "Fujitsu",
+          "meta": "Kaichi Physical OS",
+          "blurb": "Physical OS messaging with a white arm cell for small object manipulation.",
+          "images": ["images/booth-fujitsu.jpg"]
+        },
+        {
+          "id": "robify",
+          "name": "Robify",
+          "meta": "Navigation and manipulation",
+          "blurb": "Mobile manipulator plus AMR base. Wheeled specialty platforms for indoor logistics.",
+          "images": ["images/booth-robify.jpg"]
+        },
+        {
+          "id": "robotis",
+          "name": "ROBOTIS",
+          "meta": "DYNAMIXEL actuators",
+          "blurb": "Smart actuators laid out by size. The joints inside countless research robots.",
+          "images": ["images/booth-robotis.jpg", "images/booth-robotis-1.jpg"]
+        },
+        {
+          "id": "maxon",
+          "name": "maxon",
+          "meta": "Precision drive systems",
+          "blurb": "Motors and gearheads that power AMRs, arms and humanoid joints.",
+          "images": ["images/booth-maxon.jpg", "images/booth-maxon-1.jpg"]
+        },
+        {
+          "id": "hompo",
+          "name": "HOMPO",
+          "meta": "Indoor quadrotor",
+          "blurb": "Caged multirotor hovering over its own floor sticker. Aerial robots as a specialist niche.",
+          "images": ["images/booth-hompo.jpg", "images/booth-hompo-1.jpg", "images/booth-hompo-2.jpg", "images/booth-hompo-3.jpg"]
+        },
+        {
+          "id": "chopto",
+          "name": "CHOPTO and mini quadrupeds",
+          "meta": "Legged research platforms",
+          "blurb": "Miniature silver quadrupeds on the table and an orange Go2 class dog nearby.",
+          "images": ["images/booth-chopto.jpg", "images/booth-chopto-1.jpg"]
+        },
+        {
+          "id": "crab",
+          "name": "Bio inspired walker",
+          "meta": "Orange crab robot",
+          "blurb": "Entertainment and bio inspired hexapod on a green edged arena. Morphology matched to a trick, not a kitchen.",
+          "images": ["images/booth-crab.jpg"]
+        }
+      ]
+    }
+  ],
+  "alsoVisited": [
+    {
+      "name": "RAI Institute",
+      "meta": "Booth 1102",
+      "note": "Also on the route. Custom research platforms including the Ultra Mobility Vehicle, Roadrunner, and Koala grippers for data collection. I do not have a clean branded frame labelled RAI in this dump. If you point me at the shot, I will slot it in."
+    }
+  ]
+}

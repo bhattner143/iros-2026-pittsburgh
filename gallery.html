@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All photos — IROS 2026 Pittsburgh</title>
+  <meta name="description" content="All 222 photographs from IROS 2026 in Pittsburgh, captioned and sized for the web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="mast">
+    <a class="wordmark" href="index.html">IROS 2026 <span>Pittsburgh</span></a>
+    <nav>
+      <a href="index.html">Essay</a>
+      <a href="gallery.html">All 222 photos</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <header class="page-head">
+      <p class="kicker">Archive · 222 frames · ~30 MB</p>
+      <h1>Every photograph from the week</h1>
+      <p class="lede">Web-sized copies (about 1400 px wide). The 6000×4000 camera files stay in the trip folder — GitHub Pages caps a published site at 1 GB, and 1.4 GB of originals would overshoot that even though each JPG is well under the 100 MB file limit.</p>
+    </header>
+    <nav class="album-nav" id="jump"></nav>
+    <div id="album"></div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><a href="index.html">Back to the essay</a></p>
+      <p>Dipankar Bhattacharya · Imperial College London</p>
+    </div>
+  </footer>
+
+  <div class="lb" id="lb" hidden>
+    <button type="button" aria-label="Close">&times;</button>
+    <img alt="">
+    <figcaption></figcaption>
+  </div>
+
+  <script>
+    const titles = {
+      "01-exhibit-hall": "Exhibit hall",
+      "02-robots-humanoids": "Humanoids",
+      "03-robots-quadrupeds-hands-drones": "Arms, quadrupeds, drones",
+      "04-company-booths": "Company booths",
+      "05-posters": "Posters",
+      "06-our-rtff-paper": "Our RTFF paper",
+      "07-talks-and-panels": "Talks and panels",
+      "08-pittsburgh-and-food": "Pittsburgh and food",
+      "09-kamin-science-center": "Carnegie Science Center"
+    };
+
+    const albumEl = document.getElementById("album");
+    const jump = document.getElementById("jump");
+    const lb = document.getElementById("lb");
+    const lbImg = lb.querySelector("img");
+    const lbCap = lb.querySelector("figcaption");
+
+    function closeLb() {
+      lb.classList.remove("open");
+      lb.hidden = true;
+      lbImg.src = "";
+    }
+    lb.querySelector("button").addEventListener("click", closeLb);
+    lb.addEventListener("click", e => { if (e.target === lb) closeLb(); });
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closeLb(); });
+
+    fetch("album.json")
+      .then(r => r.json())
+      .then(data => {
+        data.forEach(section => {
+          const name = titles[section.folder] || section.title;
+          const a = document.createElement("a");
+          a.href = "#" + section.folder;
+          a.textContent = name + " (" + section.items.length + ")";
+          jump.appendChild(a);
+
+          const wrap = document.createElement("section");
+          wrap.className = "album-section";
+          wrap.id = section.folder;
+          wrap.innerHTML = "<h2>" + name + "</h2>";
+          const grid = document.createElement("div");
+          grid.className = "album-grid";
+          section.items.forEach(item => {
+            const fig = document.createElement("figure");
+            const link = document.createElement("a");
+            link.href = item.src;
+            link.innerHTML = '<img src="' + item.src + '" alt="' + item.id + '" loading="lazy"><figcaption><strong>' + item.id + '</strong> — ' + item.caption + "</figcaption>";
+            link.addEventListener("click", e => {
+              e.preventDefault();
+              lbImg.src = item.src;
+              lbImg.alt = item.caption;
+              lbCap.textContent = item.id + " — " + item.caption;
+              lb.hidden = false;
+              lb.classList.add("open");
+            });
+            fig.appendChild(link);
+            grid.appendChild(fig);
+          });
+          wrap.appendChild(grid);
+          albumEl.appendChild(wrap);
+        });
+      });
+  </script>
+</body>
+</html>
